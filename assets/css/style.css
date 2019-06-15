@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/train.jpeg') no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-attachment: fixed;
+}
+
+.jumbotron,
+.panel,
+div.panel-heading {
+    background-color: rgba(0, 0, 0, .5);
+    color: rgb(255, 152, 0);
+    text-shadow: .2px .2px  #fff;
+    border: 1px solid rgb(255, 152, 0);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.form-control {
+    background-color: rgba(245, 245, 245, .7);
+}
+
+#add-train {
+    padding: 2px 30px;
+    outline: none;  
+}
+
+footer {
+    margin-top: 70px;
+    padding: 10px 30px;
+}
+
